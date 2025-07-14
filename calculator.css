@@ -90,7 +90,7 @@ button:hover {
 
 
 .footer {
-   background-color: white;
+   background:solid transparent;
    border-radius: 20px;
    margin: 20px;
    display: flex;
@@ -116,7 +116,6 @@ transition: transform 0.3s, color 0.3s;
 
 .fa-facebook:hover{
     transform: scale(1.4); 
-    color: darkblue;
 }
 
 .fa-twitter{
@@ -125,7 +124,6 @@ color:rgb(10, 136, 186);
 
 .fa-twitter:hover{
     transform: scale(1.4); 
-    color:blue;
 }
 
 .fa-youtube{
