@@ -3,78 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Calculator</title>
+    <title>Calculator</title>
     <link href="calculator.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+
     <div class="calculator">
-        <div class="display-section">
-            <input type="text" placeholder="0" id="inputBox" readonly>
-        </div>
+        <input type="text" placeholder="0" id="inputBox">
 
-        <!-- Advanced Functions Section -->
-        <div class="advanced-section">
-            <button class="operator" data-func="sqrt">√</button>
-            <button class="operator" data-func="ln">ln</button>
-            <button class="operator" data-func="log">log</button>
-            <button class="operator" data-func="pi">π</button>
-
-            <button class="operator" data-func="sin">sin</button>
-            <button class="operator" data-func="cos">cos</button>
-            <button class="operator" data-func="tan">tan</button>
-            <button class="operator" data-func="e">e</button>
-
-            <button class="operator" data-func="asin">sin⁻¹</button>
-            <button class="operator" data-func="acos">cos⁻¹</button>
-            <button class="operator" data-func="atan">tan⁻¹</button>
-            <button class="operator" data-func="pow">^</button>
-        </div>
-
-        <!-- Main Button Grid -->
         <div class="button-grid">
-            <!-- Row 1 -->
-            <button class="clear-btn" data-action="clear">AC</button>
-            <button class="delete-btn" data-action="delete">DEL</button>
-            <button class="operator" data-op="%">%</button>
-            <button class="operator" data-op="÷">÷</button>
+            <button class="operator">AC</button>
+            <button class="operator">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
 
-            <!-- Row 2 -->
-            <button data-num="7">7</button>
-            <button data-num="8">8</button>
-            <button data-num="9">9</button>
-            <button class="operator" data-op="×">×</button>
+            <button class="operator">√</button>
+            <button class="operator">ln</button>
+            <button class="operator">e</button>
+            <button class="operator">^</button>
 
-            <!-- Row 3 -->
-            <button data-num="4">4</button>
-            <button data-num="5">5</button>
-            <button data-num="6">6</button>
-            <button class="operator" data-op="−">−</button>
+            <button class="operator">sin</button>
+            <button class="operator">cos</button>
+            <button class="operator">tan</button>
+            <button class="operator">sin⁻¹</button>
 
-            <!-- Row 4 -->
-            <button data-num="1">1</button>
-            <button data-num="2">2</button>
-            <button data-num="3">3</button>
-            <button class="operator" data-op="+">+</button>
+            <button class="operator">cos⁻¹</button>
+            <button class="operator">tan⁻¹</button>
+            <button class="operator">(</button>
+            <button class="operator">)</button>
 
-            <!-- Row 5 -->
-            <button data-num="0">0</button>
-            <button data-num=".">.</button>
-            <button class="operator" data-op="(">(</button>
-            <button class="operator" data-op=")">)</button>
 
-            <!-- Row 6 -->
-            <button class="eqlbtn" data-action="equals">=</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
+
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="eqlbtn">=</button>
         </div>
-
         <div class="footer">
-            <a href="https://www.facebook.com/profile.php?id=100012502455123&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fab fa-facebook"></i></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" title="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://youtube.com/@muhammadawais014?si=RcChAmPDVZxdZSCB" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fab fa-youtube"></i></a>
-            <a href="https://www.instagram.com/mawais_014?igsh=eWUxdGE4eGZka3Vx" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100012502455123&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://youtube.com/@muhammadawais014?si=RcChAmPDVZxdZSCB"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/mawais_014?igsh=eWUxdGE4eGZka3Vx"><i class="fab fa-instagram"></i></a>
         </div>
-        <p>Made by Muhammad Awais © 2025</p>
+        <p> Made by Muhammad Awais Copyright &copy 2025</p>
     </div>
+
 
     <script src="calculator.js"></script>
 </body>
